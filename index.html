@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js hanson 1</title>
+    <style>
+
+        body{
+            background-color: palevioletred;
+
+        }
+
+        h1{
+            color: yellow;
+        }
+    </style>
+</head>
+<body> 
+
+    <h1>JS HANDSON 1</h1>
+
+    <p>
+        <b>Add TWO Numbers</b> <br>
+        You are provided with two numbers A and B. Your task is to add these two numbers.
+            Note: You have to complete AddTwoNumbers function. No need to take any input.</p>
+        <pre>
+        const AddTwoNumbers = (a,b) => {
+            return a+b;
+        };
+    </pre>
+    <hr>
+
+    <p>
+        <b>Find if the conditions are obeyed or not?</b><br>
+        You are given two number first as A and second as B and check if both conditions (A<10 and A>B) are
+            satisfied or not with the help of operators.
+            Note: You have to complete Is_Valid function. No need to take any input.
+    </p>
+    <pre>
+    const Is_Valid = (a,b) => {
+        if(a<10 && a>b){
+          return 'true';
+        }
+        else{
+          return 'false';
+        }
+      };
+</pre>
+    <hr>
+
+    <p>
+        <b> You are given two numbers A and B. You need to do the following checks: </b><br>
+    </p>
+    <ul>
+        <li>if both are divisible by 10 console true.</li>
+        <li>if both are not divisible by 10 console false.</li>
+        <li>if one of them only is divisible by 10 console true.</li>
+    </ul>
+
+    <p>Use operator to do this.
+
+        Note: You have to complete Check function. No need to take any input.
+    </p>
+
+    <pre>
+const Check = (A, B) => 
+{
+if(A%10==0 && B%10==0){
+return 'true';
+}
+else if(A%10==0 || B%10==0){
+return 'true';
+}
+else{
+return 'false';
+}
+
+};
+</pre>
+    <hr>
+    <p>
+        <b>Find the first digit of a 4 digit number.</b><br> You are provided a four digit number N only. Your task
+        is to print out the first digit of that number.
+        Note: You have to complete First_Digit function. No need to take any input.
+    </p>
+    <pre>
+const First_Digit = (n) => {
+    var a=n/1000;
+    var b=parseInt(a);
+    return b;
+ };
+</pre>
+    <hr>
+    <p>
+        <b> Find the last digit of a 4 digit number. </b><br>You are provided a four digit number N only. Your task
+        is to print out the last digit of that number.
+        Note: You have to complete Last_Digit function. No need to take any input.
+    </p>
+    <pre>
+const Last_Digit = (n) => {
+    var a=n%10;
+    return a;
+ };
+</pre>
+    <hr>
+
+    <p>
+        <b> Find the remainder </b><br>
+        You are provided with two numbers A and B where A as divisor and B as dividend.Your task is find the
+        remainder.
+        Note: You have to complete Find_the_remainder function. No need to take any input.
+    </p>
+    <pre>
+const Find_the_remainder = (a,b) => {
+    return b%a;
+};
+</pre>
+    <hr>
+
+    <p>
+        <b> Multipy two Numbers </b><br>
+        You are provided with two numbers A and B Your task is to multiply these two numbers.
+        Note: You have to complete Multiply_two_number function. No need to take any input.
+    </p>
+    <pre>
+const Multiply_two_number = (a,b) => {
+    return a*b;
+};
+
+</pre>
+    <hr>
+
+    <p>
+        <b> Marks Calculator </b><br>
+        Shyam has got his marks in three subjects as A, B, and C (out of 100).Write a program to calculate his total
+        marks and his average.
+        Note: You have to complete Sum and Average functions. No need to take any input.
+    </p>
+    <pre>
+
+const Sum = (A, B, C) => 
+{
+return A+B+C;
+};
+
+const Average = (A, B, C) => 
+{
+return (A+B+C)/3;
+};
+</pre>
+    <hr>
+
+
+
+</div>
+
+
+
+
+
+
+    
+</body>
+</html>
+
+
